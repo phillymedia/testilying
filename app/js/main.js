@@ -2,6 +2,9 @@
 
 $(document).ready(function() {
 
+
+
+
 var init = $(".text-letter").length;
 var swap = ["l","y","i","n","g"]
 
@@ -61,6 +64,16 @@ $(".text-letter").eq(5).fadeOut(500, function() {
 
 console.log(swap);
 
+$('#myTable').DataTable({
+    scrollY: '50vh',
+    scrollCollapse: true,
+    paging: false,
+    rowReorder: {
+        selector: 'td:nth-child(2)'
+    },
+    responsive: true,
+    "autoWidth": false
+});
 
 
 
