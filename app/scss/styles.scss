@@ -1,2 +1,29 @@
 @import 'longform-styles';
 @import 'philly-styles/values';
+
+.text-top {
+    width: 100%;
+    font-weight: 800;
+    letter-spacing: -.0625rem;
+    font-family: "Gotham Narrow SSm A","Gotham Narrow SSm B","Arial",sans-serif;
+    text-align: center;
+}
+
+.text-top-head {
+  font-size: 160px;
+  text-transform: uppercase;
+  margin: 150px auto 50px;
+  text-align: centerl
+}
+.text-top-head h2 {
+  text-transform:none;
+}
+// .text-top-head span {
+//   color:#cc0000;
+// }
+
+
+
+
+
+//
