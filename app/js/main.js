@@ -15,7 +15,6 @@ var swap = ["l","y","i","n","g"]
 // setTimeout(function(){$(".text-letter").eq(1).css("color","#cc0000");}, 1000);
 // setTimeout(function(){$(".text-letter").eq(4).css("color","#cc0000");}, 1200);
 
-setTimeout(function(){
 
 setTimeout(function(){
   $(".text-letter").eq(0).fadeOut(500, function() {
@@ -60,9 +59,9 @@ $(".text-letter").eq(5).fadeOut(500, function() {
 });
 ;}, 700);
 
-;}, 1000);
 
-console.log(swap);
+
+
 
 $('#myTable').DataTable({
     scrollY: '50vh',
