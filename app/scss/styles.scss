@@ -26,7 +26,17 @@
 
 
 
-//
+//breakout
+
+.breakout {
+  display: flex;
+  width: 100%;
+}
+
+.breakout-card {
+  height: 200px;
+  border: 1px solid
+}
 
 
 //table-container
@@ -52,4 +62,24 @@ table.dataTable th {
 
 .officer {
     background-color: #d6e0f5 !important;
+}
+
+// media
+
+@media (max-width: 1200px) {
+  .text-top-head {
+    font-size: 80px;
+    text-transform: uppercase;
+    margin: 150px auto 50px;
+    text-align: centerl
+  }
+}
+
+@media (max-width: 600px) {
+  .text-top-head {
+    font-size: 50px;
+    text-transform: uppercase;
+    margin: 150px auto 50px;
+    text-align: centerl
+  }
 }
