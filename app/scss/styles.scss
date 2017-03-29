@@ -44,6 +44,8 @@
 #myTable_wrapper,
 #myTable {
     font-family: "Gotham Narrow SSm A", "Gotham Narrow SSm B", "Arial", sans-serif;
+    width: 95%;
+    margin:0 auto;
 }
 
 table.dataTable.hover tbody tr:hover,
@@ -76,6 +78,11 @@ table.dataTable th {
 }
 
 @media (max-width: 600px) {
+
+  .mobileHide {
+    display:none;
+  }
+
   .text-top-head {
     font-size: 50px;
     text-transform: uppercase;
