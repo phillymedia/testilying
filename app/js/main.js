@@ -5,6 +5,8 @@ $(document).ready(function() {
 
 
 
+
+
 var init = $(".text-letter").length;
 var swap = ["l","y","i","n","g"]
 
